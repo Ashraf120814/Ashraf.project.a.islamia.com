@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://scontent.flko10-2.fna.fbcdn.net/v/t1.6435-9/87980064_3095810393771670_8186099591913930752_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=n9o7nTJ6CtoQ7kNvwFK9b5Y&_nc_oc=Adkwr9YMalzqSqdfKgCy6UcBwdAjC6x2BVBxz_kSHXIxfCCu9_PZQLDj4bsXo2GDT8SCDxj6l4JwkpDWFBWq6IdK&_nc_zt=23&_nc_ht=scontent.flko10-2.fna&_nc_gid=Jmevwt-JBragGM46CQyF0w&oh=00_AfJH69-i5a9LXaXexRNJ5eMfLXTlrly6yqzljl4WJjcJ2g&oe=684D299A");
+    height: 100vh;
+    background-size: cover;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    
+}
+.navlist{
+    display: flex;
+    width: 160vh;
+    background-color: #1f1d1d;
+}
+.rightnav{
+    padding: auto;
+
+}
+#search{
+    font-size: 12px;
+    font-family: cursive;
+}
+.navlist li{
+    list-style: none;
+    text-align: center;
+    padding: 28px 30px;
+    
+}
+
+.navlist li a{
+    text-decoration: none; 
+    color: wheat;
+}
+.navlist li a:hover{ 
+    color:gray
+}
+.btn-btnsm{
+    padding: 6px 15px;
+    border: #1f1d1d;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: #1f1d1d;
+    font-size: 16px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.tourism-card {
+    text-align: center;
+    opacity: 80%;
+    background-color: white;
+    background-blend-mode: lighten;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-heading {
+    font-family:"caveat";
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.button {
+    height: 36px;
+    width: 138px;
+    background-color: #19ce73;
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://www.insidehighered.com/sites/default/files/styles/max_650x650/public/2025-01/GettyImages-182738365.jpg?itok=uxdlff6s");
+    height: 160vh;
+    background-size: cover;
+}
+
+.favourite-places-heading {
+    color: rgb(14, 13, 13);
+    font-family: "Caveat";
+    font-size: 48px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+    width: cover;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.favourite-place-card-image {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+
+}
+
+.detailed-view-bg-container {
+    background: rgba(0, 0, 0, 0.7) url("https://pd.w.org/2024/01/89165b92cfc3c30b7.86095690.jpg");
+    height: cover;
+    background-size: cover;
+    ;
+    background-blend-mode: darken;
+     
+}
+
+.logo img{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 30vh;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: Pacifico;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detailed-view-card-description {
+    font-family: Roboto;
+    font-size: 12px;
+    color: #6c6b70;
+}
+
+.detailed-view-text-container {
+    padding: 16px;
+}
+.btn-b {
+    height: 28px;
+    width: 60px;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(248, 204, 145);
+    font-size: 12px;
+    background-color: #ffffff;;
+
+
+}
+.Contact_page{
+    margin: 25px;
+
+
+}
+.form-label{
+    color: wheat;
+}
